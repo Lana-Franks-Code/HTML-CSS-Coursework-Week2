@@ -3,6 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  margin: 10px;
 }
 
 /**
@@ -27,15 +28,22 @@ body {
   padding: 50px;
 }
 /*Icon Styles*/
-.little-karma {
+#little-karma {
+  font-size: 32px;
 }
-.icon-img {
-  width: 80%;
-  padding: 10px;
-}
+
 .icon-section {
   display: flex;
   justify-content: center;
+  align-content: flex-start;
+}
+.icon-img {
+  width: 150px;
+
+  padding: 25px;
+}
+figcaption {
+  font-size: 18px;
 }
 
 /*Footer Styles*/
