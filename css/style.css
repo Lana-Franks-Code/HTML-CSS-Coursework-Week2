@@ -27,12 +27,15 @@ body {
   padding: 50px;
 }
 /*Icon Styles*/
+.little-karma {
+}
 .icon-img {
-  width: 50%;
+  width: 80%;
   padding: 10px;
 }
 .icon-section {
   display: flex;
+  justify-content: center;
 }
 
 /*Footer Styles*/
