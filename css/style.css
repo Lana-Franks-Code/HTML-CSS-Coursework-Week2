@@ -23,14 +23,21 @@ body {
 }
 
 /*Hero Styles*/
+
 .hero-image {
-  width: 100%;
-  padding: 50px;
-}
-#hero-section {
-  background-image: url("img\first-background.jpg") no-repeat;
+  background-image: url("../img/first-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: 25px;
+  position: relative;
 }
 
+.hero-text {
+  text-align: center;
+  color: white;
+  position: absolute;
+}
 /*Icon Styles*/
 #little-karma {
   font-size: 32px;
